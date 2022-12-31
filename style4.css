@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+*::selection{
+    background-color: #1d701547;
+    font-size: 8pt;
+}
+
+body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #092407;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 8pt;
+}
+
+.contenedor{
+    width: 95%;
+    max-width: 650px;
+    height: auto;
+    margin-top: 20PX;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px 1px rgb(107, 103, 103);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.titulo{
+    width: 90%;
+    max-width: 550px;
+    height: 25px;
+    margin: 20px auto 15px;
+    border-bottom: 1px dashed #1d7015ae;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.quincena{
+    width: 95%;
+    max-width: 450px;
+    height: 40px;
+    margin-top: 0PX;
+    background-color: #1d7015ae;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.subtitulo{
+    margin-left: 10px;
+    font-size: 1.1em;
+    color: white;
+}
+
+#elegir_quincena{
+    width: 120px;
+    height: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-weight: 600;
+    display: flex;
+    transition: 0.1s;
+}
+
+#elegir_quincena:focus{
+    transition: 0.1s;
+    transform: scale(1.03);
+}
+
+#elegir_quincena:hover{
+    transition: 0.1s;
+    transform: scale(1.03);
+}
+
+.quincena_escrita{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 80%;
+    max-width: 400px;
+    height: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #1d7015ae;
+
+}
+
+#s_quincena_escrita{
+    font-size: 1.2em;
+}
+
+
+.fila{
+    width: 90%;
+    max-width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+
+}
+
+.casillas{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feriado{
+    width: 85px;
+    height: 30px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.contenido_dia_a{
+    margin: 0px 5px 0px;
+}
+
+.contenido_dia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 25px;
+    margin-right: 5px;
+    border-right: solid 2px #1d7015ae;
+}
+
+.los2_input{
+    outline: none;
+    padding: 3px;
+    border-radius: 5px;
+    border: solid 1px #1d7015ae;
+    transition: 0.1s;
+}
+
+.los2_input:focus{
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+
+.los2_input:hover{
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+
+.resultado_parcial{
+    width: 50px;
+    height: 23px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid #1d7015ae;
+    font-weight: 600;
+}
+
+.barra_separacion{
+    width: 90%;
+    max-width: 550px;
+    height: 1px;
+    margin-top: 20px;
+    background-color: #1d7015ae;
+}
+
+.total{
+    background-color: #1d7015ae;
+    width: 95%;
+    max-width: 550px;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#ingresar_horas{
+    width: 90px;
+    height: 30px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+
+#ingresar_horas:hover{
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+
+#ingresar_horas:active{
+    transform: scale(1.0);
+}
+
+.ingresar_horas_texto{
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+#total_horas{
+    background-color: rgb(255, 255, 255);
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.ingresar_valor{
+    width: 95%;
+    max-width: 550px;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingresar_valor_numero{
+    width: 70px;
+    height: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: 2px solid #1d7015ae;
+    display: flex;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button, .ingresar_valor_boton::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.ingresar_valor_boton{
+    width: 90px;
+    height: 32px;
+    margin-left: 20px;
+    font-weight: 600;
+    background-color: #1d7015ae;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+
+.ingresar_valor_boton:hover{
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+
+.ingresar_valor_boton:active{
+    transform: scale(1.0);
+}
+
+.resultado_final{
+    border-top: 1px dashed #1d7015ae;
+    width: 95%;
+    max-width: 450px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultado_final_dinero{
+    background-color: rgb(255, 255, 255);
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+footer{
+    width: 95%;
+    height: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.texto{
+    color: white;
+    font-size: 0.7em;
+}
+
+
+
+
+/*
+
+Checkbox:
+
+*/
+
+input[type="checkbox"]{
+    position: relative;
+    width: 25px;
+    height: 15px;
+    appearance: none;
+    background: rgb(226, 222, 222);
+    border-radius: 25px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:checked[type="checkbox"]{
+    background-color: #1d7015ae;
+    transition: 0.3s;
+}
+
+input[type="checkbox"]:before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: -1px;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(226, 222, 222);
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 1px rgb(102, 99, 99);
+    transform: scale(.98, .98);
+    transition: .3s;
+}
+
+input:checked[type="checkbox"]:before{
+    left: 11px;
+}
+
+
+
+
+

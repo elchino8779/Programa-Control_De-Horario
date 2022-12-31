@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style4.css">
+    <script src="script4.js" defer></script>
+    <title>Control de Horario</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="titulo">
+            <span class="s_titulo">Control de Horario 3.0</span>
+        </div>
+
+        <div class="quincena">
+            <div class="subtitulo">Elija su quincena:</div>
+            <input type="date" id="elegir_quincena" min="2022-01-01" max="2027-12-31">
+        </div>
+
+        <div class="quincena_escrita"><span id="s_quincena_escrita"></span></div>
+
+        <div class="fila">
+            <div class="contenido_dia"><p class="s_contenido_dia">---</p></div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="contenido_dia_a">a</div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="casillas">
+                <div class="feriado"><span>Feriado</span>
+                    <input type="checkbox" name="" id="feriado_check" class="caja_checkbox_feriado">
+                </div>
+                <div class="feriado"><span>Corrido</span>
+                    <input type="checkbox" name="" id="corrido_check" class="caja_checkbox_corrido">
+                </div>
+            </div>
+            <div class="contenido_dia_a"> = </div>
+            <div class="resultado_parcial">---</div>
+        </div>
+
+        <div class="fila">
+            <div class="contenido_dia"><p class="s_contenido_dia">---</p></div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="contenido_dia_a">a</div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="casillas">
+                <div class="feriado"><span>Feriado</span>
+                    <input type="checkbox" name="" id="feriado_check" class="caja_checkbox_feriado">
+                </div>
+                <div class="feriado"><span>Corrido</span>
+                    <input type="checkbox" name="" id="corrido_check" class="caja_checkbox_corrido">
+                </div>
+            </div>
+            <div class="contenido_dia_a"> = </div>
+            <div class="resultado_parcial">---</div>
+        </div>
+
+        <div class="fila">
+            <div class="contenido_dia"><p class="s_contenido_dia">---</p></div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="contenido_dia_a">a</div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="casillas">
+                <div class="feriado"><span>Feriado</span>
+                    <input type="checkbox" name="" id="feriado_check" class="caja_checkbox_feriado">
+                </div>
+                <div class="feriado"><span>Corrido</span>
+                    <input type="checkbox" name="" id="corrido_check" class="caja_checkbox_corrido">
+                </div>
+            </div>
+            <div class="contenido_dia_a"> = </div>
+            <div class="resultado_parcial">---</div>
+        </div>
+
+        <div class="fila">
+            <div class="contenido_dia"><p class="s_contenido_dia">---</p></div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="contenido_dia_a">a</div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="casillas">
+                <div class="feriado"><span>Feriado</span>
+                    <input type="checkbox" name="" id="feriado_check" class="caja_checkbox_feriado">
+                </div>
+                <div class="feriado"><span>Corrido</span>
+                    <input type="checkbox" name="" id="corrido_check" class="caja_checkbox_corrido">
+                </div>
+            </div>
+            <div class="contenido_dia_a"> = </div>
+            <div class="resultado_parcial">---</div>
+        </div>
+
+        <div class="fila">
+            <div class="contenido_dia"><p class="s_contenido_dia">---</p></div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="contenido_dia_a">a</div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="casillas">
+                <div class="feriado"><span>Feriado</span>
+                    <input type="checkbox" name="" id="feriado_check" class="caja_checkbox_feriado">
+                </div>
+                <div class="feriado"><span>Corrido</span>
+                    <input type="checkbox" name="" id="corrido_check" class="caja_checkbox_corrido">
+                </div>
+            </div>
+            <div class="contenido_dia_a"> = </div>
+            <div class="resultado_parcial">---</div>
+        </div>
+
+        <div class="fila">
+            <div class="contenido_dia"><p class="s_contenido_dia">---</p></div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="contenido_dia_a">a</div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="casillas">
+                <div class="feriado"><span>Feriado</span>
+                    <input type="checkbox" name="" id="feriado_check" class="caja_checkbox_feriado">
+                </div>
+                <div class="feriado"><span>Corrido</span>
+                    <input type="checkbox" name="" id="corrido_check" class="caja_checkbox_corrido">
+                </div>
+            </div>
+            <div class="contenido_dia_a"> = </div>
+            <div class="resultado_parcial">---</div>
+        </div>
+
+        <div class="fila">
+            <div class="contenido_dia"><p class="s_contenido_dia">---</p></div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="contenido_dia_a">a</div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="casillas">
+                <div class="feriado"><span>Feriado</span>
+                    <input type="checkbox" name="" id="feriado_check" class="caja_checkbox_feriado">
+                </div>
+                <div class="feriado"><span>Corrido</span>
+                    <input type="checkbox" name="" id="corrido_check" class="caja_checkbox_corrido">
+                </div>
+            </div>
+            <div class="contenido_dia_a"> = </div>
+            <div class="resultado_parcial">---</div>
+        </div>
+
+        <div class="fila">
+            <div class="contenido_dia"><p class="s_contenido_dia">---</p></div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="contenido_dia_a">a</div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="casillas">
+                <div class="feriado"><span>Feriado</span>
+                    <input type="checkbox" name="" id="feriado_check" class="caja_checkbox_feriado">
+                </div>
+                <div class="feriado"><span>Corrido</span>
+                    <input type="checkbox" name="" id="corrido_check" class="caja_checkbox_corrido">
+                </div>
+            </div>
+            <div class="contenido_dia_a"> = </div>
+            <div class="resultado_parcial">---</div>
+        </div>
+
+        <div class="fila">
+            <div class="contenido_dia"><p class="s_contenido_dia">---</p></div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="contenido_dia_a">a</div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="casillas">
+                <div class="feriado"><span>Feriado</span>
+                    <input type="checkbox" name="" id="feriado_check" class="caja_checkbox_feriado">
+                </div>
+                <div class="feriado"><span>Corrido</span>
+                    <input type="checkbox" name="" id="corrido_check" class="caja_checkbox_corrido">
+                </div>
+            </div>
+            <div class="contenido_dia_a"> = </div>
+            <div class="resultado_parcial">---</div>
+        </div>
+
+        <div class="fila">
+            <div class="contenido_dia"><p class="s_contenido_dia">---</p></div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="contenido_dia_a">a</div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="casillas">
+                <div class="feriado"><span>Feriado</span>
+                    <input type="checkbox" name="" id="feriado_check" class="caja_checkbox_feriado">
+                </div>
+                <div class="feriado"><span>Corrido</span>
+                    <input type="checkbox" name="" id="corrido_check" class="caja_checkbox_corrido">
+                </div>
+            </div>
+            <div class="contenido_dia_a"> = </div>
+            <div class="resultado_parcial">---</div>
+        </div>
+
+        <div class="fila">
+            <div class="contenido_dia"><p class="s_contenido_dia">---</p></div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="contenido_dia_a">a</div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="casillas">
+                <div class="feriado"><span>Feriado</span>
+                    <input type="checkbox" name="" id="feriado_check" class="caja_checkbox_feriado">
+                </div>
+                <div class="feriado"><span>Corrido</span>
+                    <input type="checkbox" name="" id="corrido_check" class="caja_checkbox_corrido">
+                </div>
+            </div>
+            <div class="contenido_dia_a"> = </div>
+            <div class="resultado_parcial">---</div>
+        </div>
+
+        <div class="fila">
+            <div class="contenido_dia"><p class="s_contenido_dia">---</p></div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="contenido_dia_a">a</div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="casillas">
+                <div class="feriado"><span>Feriado</span>
+                    <input type="checkbox" name="" id="feriado_check" class="caja_checkbox_feriado">
+                </div>
+                <div class="feriado"><span>Corrido</span>
+                    <input type="checkbox" name="" id="corrido_check" class="caja_checkbox_corrido">
+                </div>
+            </div>
+            <div class="contenido_dia_a"> = </div>
+            <div class="resultado_parcial">---</div>
+        </div>
+
+        <div class="fila">
+            <div class="contenido_dia"><p class="s_contenido_dia">---</p></div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="contenido_dia_a">a</div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="casillas">
+                <div class="feriado"><span>Feriado</span>
+                    <input type="checkbox" name="" id="feriado_check" class="caja_checkbox_feriado">
+                </div>
+                <div class="feriado"><span>Corrido</span>
+                    <input type="checkbox" name="" id="corrido_check" class="caja_checkbox_corrido">
+                </div>
+            </div>
+            <div class="contenido_dia_a"> = </div>
+            <div class="resultado_parcial">---</div>
+        </div>
+
+        <div class="fila">
+            <div class="contenido_dia"><p class="s_contenido_dia">---</p></div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="contenido_dia_a">a</div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="casillas">
+                <div class="feriado"><span>Feriado</span>
+                    <input type="checkbox" name="" id="feriado_check" class="caja_checkbox_feriado">
+                </div>
+                <div class="feriado"><span>Corrido</span>
+                    <input type="checkbox" name="" id="corrido_check" class="caja_checkbox_corrido">
+                </div>
+            </div>
+            <div class="contenido_dia_a"> = </div>
+            <div class="resultado_parcial">---</div>
+        </div>
+
+        <div class="fila">
+            <div class="contenido_dia"><p class="s_contenido_dia">---</p></div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="contenido_dia_a">a</div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="casillas">
+                <div class="feriado"><span>Feriado</span>
+                    <input type="checkbox" name="" id="feriado_check" class="caja_checkbox_feriado">
+                </div>
+                <div class="feriado"><span>Corrido</span>
+                    <input type="checkbox" name="" id="corrido_check" class="caja_checkbox_corrido">
+                </div>
+            </div>
+            <div class="contenido_dia_a"> = </div>
+            <div class="resultado_parcial">---</div>
+        </div>
+
+        <div class="fila">
+            <div class="contenido_dia"><p class="s_contenido_dia">---</p></div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="contenido_dia_a">a</div>
+            <input type="time" class="los2_input" value="00:00">
+            <div class="casillas">
+                <div class="feriado"><span>Feriado</span>
+                    <input type="checkbox" name="" id="feriado_check" class="caja_checkbox_feriado">
+                </div>
+                <div class="feriado"><span>Corrido</span>
+                    <input type="checkbox" name="" id="corrido_check" class="caja_checkbox_corrido">
+                </div>
+            </div>
+            <div class="contenido_dia_a"> = </div>
+            <div class="resultado_parcial">---</div>
+        </div>
+
+        <div class="barra_separacion"></div>
+
+        <div class="total">
+            <button id="ingresar_horas">Calcular</button>
+            <span class="ingresar_horas_texto">Total de horas:</span>
+            <div id="total_horas">---</div>
+        </div>
+
+        <div class="ingresar_valor">
+            <span class="ingresar_valor_texto">Ingrese el valor de su hora</span>
+            <input type="number" class="ingresar_valor_numero" id="ingresar_valor_numero" min="0" placeholder="0">
+            <button class="ingresar_valor_boton" id="ingresar_valor_boton">Ingresar</button>
+        </div>
+
+        <div class="resultado_final">
+            <span class="resultado_final_texto">Usted deberia cobrar:</span>
+            <div class="resultado_final_dinero" id="resultado_final_dinero"></div>
+            <span class="resultado_final_texto">aproximadamente</span>
+        </div>
+    </div>
+
+    <footer>
+        <p class="texto">*Los valores son solo de referencia, para mayor seguridad realice los calculos manualmente</p>
+    </footer>
+</body>
+</html>
