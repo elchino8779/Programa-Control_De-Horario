@@ -25,7 +25,7 @@
         Carga de horario de entrada y salida.<br>
         Permite elegir dias feriados.<br>
         Carga de valor por hora trabajada.<br>
-        Retorna un valor estimado de la remuneracion neta bruta a cobrar.<br>
+        Retorna un valor estimado de la remuneracion bruta a cobrar.<br>
         Totalmente responsivo.<br>
 </div>
 
