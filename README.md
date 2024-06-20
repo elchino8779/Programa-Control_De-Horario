@@ -7,25 +7,25 @@
 <div id="datos">
     <h3>✔️ Datos:</h3>
     <p>
-	    🔹 Este proyecto fue creado con fines de practica <br>
-        🔹 Desarrollado en HTML, CSS y JavaScript <br>
-        🔹 Esta app web busca facilitar la carga de horas de una persona <br>
-        🔹 Calcula horas extras, feriados, sábados y domingos <br>
-	    🔹 Devuelve una cantidad estimada de horas trabajadas y su correspondiente remuneración.
+	🔹 Este proyecto fue creado con fines de practica <br>
+	🔹 Desarrollado en HTML, CSS y JavaScript <br>
+	🔹 Esta app web busca facilitar la carga de horas de una persona <br>
+	🔹 Calcula horas extras, feriados, sábados y domingos <br>
+	🔹 Devuelve una cantidad estimada de horas trabajadas y su correspondiente remuneración.
     </p>
 </div>
 
 ---
 
 <div id="caracteristicas">
-    <h3>⚙️ Caracteristicas:</h3>
+    <h3>⚙️ Características:</h3>
     <p>
         🔸 Permite a las personas que trabajan por hora/quincena llevar un control de horas <br>
         🔸 Carga de año, mes y quincena actualizada <br>
         🔸 Carga de horario de entrada y salida <br>
-        🔸 Permite elegir dias trabajados sin descanso intermedio y feriados <br>
+        🔸 Permite elegir días trabajados sin descanso intermedio y feriados <br>
         🔸 Carga de valor por hora trabajada <br>
-        🔸 Retorna un valor estimado de la remuneracion bruta a cobrar <br>
+        🔸 Retorna un valor estimado de la remuneración bruta a cobrar <br>
     </p>
 </div>
 
